@@ -1,12 +1,12 @@
-<!-- 
+<?php
+
+/*
    file-lister.php | File Lister Script
    Míriam Domínguez Martínez
--->
+*/
 
-<?php
- 
 // This script list all files and folders from a directory
-
+ 
 // Set the directory to list
 $directory = "./";
  
@@ -175,11 +175,11 @@ sort($items);
  
 <?php
  
-/**
- * Function to convert bytes into a readable format
- * @param int $bytes: The size in bytes
- * @return string: The size in readable format
- */
+/*
+    Function to convert bytes into a readable format
+    @param int $bytes: The size in bytes
+    @return string: The size in readable format
+*/
 function formatBytes($bytes) {
     $units = ['B', 'KB', 'MB', 'GB'];
     
